@@ -1,0 +1,61 @@
+.formSection{
+    max-width: 1000px;
+    margin:  0 auto;
+    display: flex;
+  
+padding: 10px;
+}
+.formSection .rightSection,.leftSection{
+  
+    display: flex;
+    flex-direction: column;
+    
+}
+.rightSection img{
+   
+    width: 508.872px;
+    height: 400.308px;
+
+
+}
+.buttonDiv{
+    display: flex;
+    gap: 32px;
+    margin-bottom: 17px;
+}
+label{
+    display: flex;
+    flex-direction: column;
+   
+}
+.inputContainer input{
+    height: 40px;
+    width: 100%;
+
+}
+.inputContainer textarea{
+    height: 120px;
+    width: 100%;
+
+}
+.inputContainer {
+    position: relative;
+    margin-bottom: 5px;
+   
+}
+.inputContainer label{
+    position: absolute;
+    top: -10px;
+    left: 24px;
+    background-color: white;
+    padding: 0px 4px;
+    font-weight:400;
+}
+.mainInputContainer{
+    margin-top: 20px;
+}
+.alignRight{
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+}

@@ -1,0 +1,17 @@
+.contentDiv{
+    max-width: 1000px;
+    margin: 0 auto;
+
+
+}
+.contentDiv h1{
+    font-size: 48px;
+    font-weight: 900;
+    /* margin-bottom: 5px; */
+}
+.contentDiv p{
+    color: #5A5959;
+    font-size: 16px;
+    font-weight: 600;
+    
+}
